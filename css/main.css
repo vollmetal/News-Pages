@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#newsHeader {
+    text-align: center;
+}
+
+.card {
+    background-color: lightblue;
+}
+
+#newsSources {
+    width: 100%;
+}
+#newsSourceDropdown {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#newsArticles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+
+}
+#newsArticles div {
+    margin: 1rem;
+}
